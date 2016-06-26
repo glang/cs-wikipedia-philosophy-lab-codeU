@@ -3,6 +3,8 @@ package com.flatironschool.javacs;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Deque;
+import java.util.ArrayDeque;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
@@ -13,6 +15,8 @@ import org.jsoup.select.Elements;
 public class WikiPhilosophy {
 	
 	final static WikiFetcher wf = new WikiFetcher();
+	final static String philosophyPage = "https://en.wikipedia.org/wiki/Philosophy";
+	private static ArrayList<String> visitedLinks = new ArrayList<String>();
 	
 	/**
 	 * Tests a conjecture about Wikipedia and Philosophy.
@@ -28,24 +32,59 @@ public class WikiPhilosophy {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		
-        // some example code to get you started
+		String startURL = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+		visitedLinks.add(startURL);
+		findLink(startURL);
 
-		String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+	    for (String s : visitedLinks) {
+	    	System.out.println(s);
+	    }
+	}
+
+	private static void findLink(String url) throws IOException {
 		Elements paragraphs = wf.fetchWikipedia(url);
 
-		Element firstPara = paragraphs.get(0);
-		
-		Iterable<Node> iter = new WikiNodeIterable(firstPara);
-		for (Node node: iter) {
-			if (node instanceof TextNode) {
-				System.out.print(node);
-			}
-        }
+		for (Element para : paragraphs) {
+			Elements children = para.children();
+			Deque<Character> parenStack = new ArrayDeque<Character>();
 
-        // the following throws an exception so the test fails
-        // until you update the code
-        String msg = "Complete this lab by adding your code and removing this statement.";
-        throw new UnsupportedOperationException(msg);
+			Iterable<Node> iter = new WikiNodeIterable(para);
+			for (Node node : iter) {
+				if (node instanceof TextNode) {
+					String text = ((TextNode)node).getWholeText();
+					modifyParenStack(text, parenStack);
+				} else {
+					if (node instanceof Element) {
+						Element eNode = (Element) node;
+						if (eNode.tagName().equals("a") && validLink(eNode, parenStack)) {
+							String newURL = eNode.absUrl("href");
+							visitedLinks.add(newURL);
+							if (!newURL.equals(philosophyPage)) {
+								findLink(newURL);
+							}
+							return;
+						}
+					}
+				}
+			}
+	    }		
+	}
+
+	private static boolean validLink(Element newLink, Deque<Character> parenStack) {
+		if (visitedLinks.contains(newLink.absUrl("href")) || parenStack.size() > 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	private static void modifyParenStack(String string, Deque<Character> parenStack) {
+		for (int i = 0; i < string.length(); ++i) {
+			if (string.charAt(i) == '(') {
+				parenStack.push('(');
+			} else if (string.charAt(i) == ')') {
+				parenStack.pop();
+			}
+		}
 	}
 }

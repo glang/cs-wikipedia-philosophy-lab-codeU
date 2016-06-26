@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-DC7GCD1" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="5.1" timestamp="2016-06-26T07:30:31">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.SYSTEMROOT" value="C:\Windows" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-DC7GCD1" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.BROWSER" value="cygstart" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-DC7GCD1" />
+    <property name="env.PWD" value="/cygdrive/c/Users/Granger/Desktop/CodeU/cs-wikipedia-philosophy-lab-codeU" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files\Ant\apache-ant-1.9.6" />
+    <property name="java.runtime.version" value="1.8.0_77-b03" />
+    <property name="env.HOMEPATH" value="\Users\Granger" />
+    <property name="user.name" value="Granger" />
+    <property name="env.USER" value="Granger" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__fish_bin_dir" value="/usr/bin" />
+    <property name="env.PATH" value="C:\cygwin64\bin;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Ant\apache-ant-1.9.6\bin;C:\Program Files\Sublime Text 3;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Program Files (x86)\FAHClient" />
+    <property name="user.language" value="en" />
+    <property name="env.WINDIR" value="C:\Windows" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="java.version" value="1.8.0_77" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\cygwin64\tmp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_77\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="2" />
+    <property name="env.SYSTEMDRIVE" value="C:" />
+    <property name="file.separator" value="\" />
+    <property name="env.HOSTNAME" value="DESKTOP-DC7GCD1" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="env.PRINTER" value="Microsoft Print to PDF" />
+    <property name="ant.file.JavaCS" value="C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\build.xml" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\Granger\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="ant.file" value="C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.=::" value="::\" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.77-b03" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Granger" />
+    <property name="ant.library.dir" value="C:\Program Files\Ant\apache-ant-1.9.6\lib" />
+    <property name="env.__fish_help_dir" value="/usr/share/doc/fish" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.SSL_CERT_FILE" value="C:\RailsInstaller\cacert.pem" />
+    <property name="env.__fish_datadir" value="/usr/share/fish" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.PROFILEREAD" value="true" />
+    <property name="env.TERM" value="xterm" />
+    <property name="env.TMP" value="C:\cygwin64\tmp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.PROGRAMFILES" value="C:\Program Files" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.TZ" value="America/Los_Angeles" />
+    <property name="user.home" value="C:\Users\Granger" />
+    <property name="target" value="1.7" />
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.OLDPWD" value="/cygdrive/c/Windows/system32" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cygwin64\bin;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Ant\apache-ant-1.9.6\bin;C:\Program Files\Sublime Text 3;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Program Files (x86)\FAHClient;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.__fish_sysconfdir" value="/etc/fish" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\bin;C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\jsoup-1.8.3.jar;C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\junit-4.12.jar;C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\hamcrest-core-1.3.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant-junit.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junit\TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junitvmwatcher8608921195742880843.properties propsfile=C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junit1730476816771848790.properties" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-DC7GCD1" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="C:\cygwin64\home\Granger" />
+    <property name="env.ANT_HOME" value="C:\Program Files\Ant\apache-ant-1.9.6" />
+    <property name="env.PROCESSOR_REVISION" value="3a09" />
+    <property name="env.LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:" />
+    <property name="java.io.tmpdir" value="C:\cygwin64\tmp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.ORIGINAL_PATH" value="/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files/Java/jdk1.8.0_77/bin:/cygdrive/c/Program Files/Ant/apache-ant-1.9.6/bin:/cygdrive/c/Program Files/Sublime Text 3:/cygdrive/c/RailsInstaller/Git/cmd:/cygdrive/c/RailsInstaller/Ruby2.2.0/bin:/cygdrive/c/Program Files (x86)/FAHClient" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" test -buildfile javacs-lab05/build.xml" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Granger\AppData\Local" />
+    <property name="user.dir" value="C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU" />
+    <property name="env.PS1" value="\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ " />
+    <property name="env.INFOPATH" value="/usr/local/info:/usr/share/info:/usr/info" />
+    <property name="env.EXECIGNORE" value="*.dll" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="basedir" value="C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU\javacs-lab05" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Program Files\Ant\apache-ant-1.9.6\lib\ant.jar" />
+    <property name="env.USERNAME" value="Granger" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="DESKTOP-DC7GCD1" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Users\Granger\Desktop\CodeU\cs-wikipedia-philosophy-lab-codeU" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="5.028" />
+  <system-out><![CDATA[https://en.wikipedia.org/wiki/Java_(programming_language)
+https://en.wikipedia.org/wiki/Programming_language
+https://en.wikipedia.org/wiki/Formal_language
+https://en.wikipedia.org/wiki/Mathematics
+https://en.wikipedia.org/wiki/Quantity
+https://en.wikipedia.org/wiki/Property_(philosophy)
+https://en.wikipedia.org/wiki/Philosophy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
